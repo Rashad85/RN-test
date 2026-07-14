@@ -1,0 +1,182 @@
+<!doctype html><html lang="az"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Yeni sınaq</title><style>:root{--wine:#74182d;--ink:#172033;--soft:#f5f6f8;--line:#e0e4ea}*{box-sizing:border-box}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:#f2f4f7;color:var(--ink)}button,input{font:inherit}.student-shell{min-height:100vh;display:grid;grid-template-columns:270px minmax(0,1fr)}.student-side{background:linear-gradient(180deg,#4b0e20,#74182d);color:white;padding:26px 22px;position:sticky;top:0;height:100vh}.student-logo{width:58px;height:58px;border-radius:18px;background:white;color:var(--wine);display:grid;place-items:center;font-weight:900;font-size:22px}.student-side h2{margin:18px 0 6px}.student-side p{opacity:.78}.timer{margin-top:22px;padding:15px;border-radius:14px;background:#ffffff12;font-size:28px;font-weight:800}.progress{height:8px;background:#ffffff25;border-radius:99px;overflow:hidden;margin-top:12px}.progress i{display:block;height:100%;background:#fff;width:0}.student-main{padding:28px;max-width:1050px;width:100%;margin:auto}.intro,.question-card,.result-card{background:white;border:1px solid var(--line);border-radius:18px;box-shadow:0 12px 35px #26324810}.intro{padding:26px}.intro h1{margin:0 0 8px;font-size:30px}.meta{display:flex;gap:10px;flex-wrap:wrap}.pill{padding:7px 10px;border-radius:999px;background:#f2e7eb;color:var(--wine);font-size:13px;font-weight:700}.question-card{padding:22px;margin-top:16px;break-inside:avoid}.question-card small{display:block;color:#7b8494;margin-bottom:6px}.q-instruction{font-weight:800;color:var(--wine);line-height:1.45;margin:2px 0 7px}.q-stem{font-weight:650;font-size:1.04rem;line-height:1.5;margin:0 0 12px;white-space:pre-wrap}.option{display:grid;grid-template-columns:20px 34px minmax(0,1fr);gap:10px;align-items:start;padding:11px 13px;border:1px solid var(--line);border-radius:12px;margin-top:8px;cursor:pointer;line-height:1.45}.option:hover{border-color:#b98b98;background:#fffafb}.option input{margin:5px 0 0}.option-letter{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:#f3e6ea;color:var(--wine);font-weight:800}.option-text{padding-top:4px;white-space:pre-wrap;overflow-wrap:anywhere}.finish{border:0;background:var(--wine);color:white;border-radius:12px;padding:14px 22px;font-weight:700;margin:24px 0}.result-card{padding:28px;text-align:center}.score{font-size:52px;font-weight:900;color:var(--wine)}.palette{display:grid;grid-template-columns:repeat(5,1fr);gap:7px;margin-top:18px}.palette span{height:34px;border-radius:8px;background:#ffffff18;display:grid;place-items:center;font-size:12px}.palette span.done{background:white;color:var(--wine);font-weight:800}.wm{position:fixed;inset:0;display:grid;place-items:center;z-index:-1;transform:rotate(-25deg);font-size:70px;color:#74182d08;font-weight:900;letter-spacing:5px}.result-stats{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin:16px 0}.result-stats span{background:#f4f5f7;padding:9px 12px;border-radius:10px}.save-ok{color:#087443;font-weight:700}.save-warn{color:#9a5b00;font-weight:700}.review-title{margin:28px 0 8px}.review-card{background:white;border:1px solid var(--line);border-left:6px solid #9aa2af;border-radius:15px;padding:17px;margin-top:12px}.review-card.correct{border-left-color:#139a59}.review-card.wrong{border-left-color:#d33b4b}.review-card.blank{border-left-color:#e59a16}.review-head{display:flex;justify-content:space-between;gap:12px;align-items:start}.review-head span{font-size:12px;font-weight:800;padding:5px 8px;border-radius:999px;background:#f0f2f5}.review-stem{margin:8px 0 12px;font-weight:600}.review-answer{display:flex;gap:16px;flex-wrap:wrap;margin:10px 0;color:#515968}.review-option{display:grid;grid-template-columns:30px 1fr;gap:8px;padding:8px 10px;margin-top:6px;border-radius:9px;background:#f7f8fa}.review-option b{width:25px;height:25px;display:grid;place-items:center;border-radius:50%;background:#e8eaf0}.review-option.is-correct{background:#e9f8f0;color:#07683a}.review-option.is-wrong{background:#ffedf0;color:#a6192e}.identity-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px}.identity-grid input{width:100%;padding:13px;border:1px solid #d9dde4;border-radius:12px}.identity-note{font-size:13px;color:#6b7482}.attempt-block{background:#fff0f2;color:#9d1730;border:1px solid #f1b7c1;border-radius:13px;padding:14px;margin-top:12px}.report-card{position:relative;background:white;border:3px solid var(--wine);border-radius:22px;padding:24px;overflow:hidden;margin-top:22px}.report-watermark{position:absolute;inset:0;display:grid;place-items:center;transform:rotate(-25deg);font-size:55px;font-weight:900;color:#74182d0b;z-index:0}.report-card>*:not(.report-watermark){position:relative;z-index:1}.report-card header{display:flex;align-items:center;gap:14px;border-bottom:3px solid var(--wine);padding-bottom:12px}.report-logo{width:54px;height:54px;border-radius:15px;background:var(--wine);color:white;display:grid;place-items:center;font-weight:900}.report-card small{color:var(--wine);font-weight:800;letter-spacing:1px}.report-card h2{margin:3px 0}.report-name{text-align:center;font-size:27px;font-weight:800;margin-top:24px}.report-exam{text-align:center;color:#657083;margin-top:5px}.report-score{text-align:center;margin:20px 0}.report-score b{display:block;font-size:62px;color:var(--wine)}.report-score span{font-size:18px;font-weight:700}.report-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.report-grid div{background:#f4f5f7;border-radius:13px;padding:13px;text-align:center}.report-grid span{display:block;color:#697282;font-size:13px}.report-grid b{font-size:23px}.report-card footer{display:flex;justify-content:space-between;gap:12px;border-top:1px solid #ccd1d8;margin-top:24px;padding-top:12px}.report-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}.secondary-report{border:1px solid #d9dde4;background:white;color:#263142;border-radius:12px;padding:13px 18px;font-weight:700}.report-actions .finish{margin:14px 0}.report-actions .secondary-report{margin:14px 0}.identity-grid.one{grid-template-columns:1fr}.verified-student{background:#eaf8f1;color:#087443;border:1px solid #b9e6ce;border-radius:12px;padding:12px 15px;font-weight:800;margin:14px 0}.answer-sheet{margin-top:22px;border-top:1px solid #d9dde4;padding-top:14px}.answer-sheet h3{font-size:14px;margin:10px 0 7px;color:#4f5968}.answer-line{display:grid;grid-template-columns:repeat(10,minmax(0,1fr));gap:6px}.answer-line span{display:grid;grid-template-columns:1fr;place-items:center;min-height:42px;border:1px solid #dce1e7;border-radius:9px;background:#f7f8fa;font-weight:800}.answer-line span b{font-size:10px;color:#7a8391}.answer-line span.correct{background:#eaf8f1;color:#087443}.answer-line span.wrong{background:#fff0f2;color:#b11c35}.answer-line span.blank{background:#fff7e7;color:#9a6300}.key-line span{background:#eef1f5;color:#263142}code{background:#f1f3f6;padding:4px 7px;border-radius:7px}@media(max-width:800px){.answer-line{grid-template-columns:repeat(5,minmax(0,1fr))}.identity-grid{grid-template-columns:1fr}.report-grid{grid-template-columns:repeat(2,1fr)}.report-card footer{flex-direction:column}.student-shell{grid-template-columns:1fr}.student-side{position:relative;height:auto}.palette{display:none}.student-main{padding:14px}.intro,.question-card{border-radius:14px}.intro h1{font-size:24px}}</style></head><body><div id="studentApp"></div><script>
+function esc(v){return String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
+function questionParts(q){
+  let t=String(q.text||'').replace(/\s+/g,' ').trim();
+  const starts=/^(Choose|Select|Find|Complete|Change|Fill|Pick|Match|Identify|Read|Mark|Use|Write|Rewrite|Put|Decide|Which|Make|Correct|Open|Listen)\b/i;
+  if(!starts.test(t))return{instruction:'',stem:t};
+  const stop=t.search(/[.?](?:\s|$)/);
+  if(stop>=0){
+    const instruction=t.slice(0,stop+1).trim();
+    const stem=t.slice(stop+1).trim();
+    return{instruction,stem}
+  }
+  return{instruction:t,stem:''}
+}
+const EXAM={"id":"EX1784065661375","name":"Yeni sınaq","created":"2026-07-15 01:47:41","duration":45,"instruction":"Hər sual üçün yalnız bir düzgün cavab seçin.","showTopic":false,"showAnswers":true,"oneAttempt":true,"questions":[{"topic":"Pronouns","difficulty":"Orta","grade":"Qarışıq","type":"Multiple Choice","text":"Choose the correct variant. There is ... wrong with this computer.","A":"anything","B":"nothing","C":"something","D":"anybody","E":"every","answer":"C","sourceFile":"Pronouns_RN_Baza.csv","importedAt":"2026-07-14T20:54:28.021Z"},{"topic":"Conjunctions Conjunctive Words","difficulty":"Orta","grade":"Qarışıq","type":"Multiple Choice","text":"Choose the correct conjunction. There was heavy traffic, ... we arrived on time.","A":"although","B":"though","C":"but","D":"so","E":"because","answer":"C","sourceFile":"Conjunctions_Conjunctive_Words_RN_Baza.csv","importedAt":"2026-07-14T20:54:23.204Z"},{"topic":"Noun","difficulty":"Çətin","grade":"Qarışıq","type":"Multiple Choice","text":"Choose the sentences with the noun in the Possessive Case. 1. The Johnsons' balcony faces the sea. 2. Karim's and Elvin's bicycles are different colours. 3. We listened carefully to the farmers' complaints. 4. The climbers reached the camp after an hour's walk. 5. Ali and Murad's flat is on the ninth floor.","A":"2, 4, 5","B":"1, 2","C":"1, 4, 5","D":"2, 3","E":"1, 3, 4","answer":"C","sourceFile":"Noun_RN_Baza.csv","importedAt":"2026-07-14T20:54:25.419Z"},{"topic":"Articles","difficulty":"Orta","grade":"Qarışıq","type":"Multiple Choice","text":"Choose the correct variant. What is ... deepest lake in ... world?","A":"–, –","B":"a, –","C":"the, a","D":"a, the","E":"the, the","answer":"E","sourceFile":"Articles_RN_Baza.csv","importedAt":"2026-07-14T20:54:21.540Z"},{"topic":"Adjective Adverb Mixed","difficulty":"Orta","grade":"Qarışıq","type":"Multiple Choice","text":"Choose the correct option. She is a very ... singer. She sings so ... that everyone admires her.","A":"more beautifully, beautiful","B":"beautiful, beautiful","C":"beautifully, beautifully","D":"beautifully, beautiful","E":"beautiful, beautifully","answer":"E","sourceFile":"Adjective_Adverb_Mixed_RN_Baza.csv","importedAt":"2026-07-14T20:54:19.901Z"},{"topic":"Adjective Adverb Mixed","difficulty":"Orta","grade":"Qarışıq","type":"Multiple Choice","text":"Choose the correct option. The runner trained ... every morning, and he could ... stand after the race.","A":"hard, hard","B":"hard, hardly","C":"hardly, hard","D":"hardly, hardly","E":"most hardest, hardly","answer":"B","sourceFile":"Adjective_Adverb_Mixed_RN_Baza.csv","importedAt":"2026-07-14T20:54:19.901Z"},{"topic":"Adjective Adverb Mixed","difficulty":"Orta","grade":"Qarışıq","type":"Multiple Choice","text":"Choose the correct option. The bus arrived ... , which made all the passengers ... .","A":"lately, angry","B":"late, angry","C":"late, angrily","D":"later, angrily","E":"lately, angrier","answer":"B","sourceFile":"Adjective_Adverb_Mixed_RN_Baza.csv","importedAt":"2026-07-14T20:54:19.901Z"},{"topic":"Adjective Adverb Mixed","difficulty":"Orta","grade":"Qarışıq","type":"Multiple Choice","text":"Choose the correct variant. This sofa is ... than that wooden chair.","A":"comfortable","B":"more comfortable","C":"the most comfortable","D":"most comfortable","E":"much comfortable","answer":"B","sourceFile":"Adjective_Adverb_Mixed_RN_Baza.csv","importedAt":"2026-07-14T20:54:19.900Z"},{"topic":"Adjective Adverb Mixed","difficulty":"Orta","grade":"Qarışıq","type":"Multiple Choice","text":"Choose the correct variant. This storm is too ..., so it may be much ... than expected.","A":"dangerous, more destructive","B":"more dangerous, destructive","C":"most dangerous, most destructive","D":"dangerous, the most destructive","E":"more dangerous, destructiver","answer":"A","sourceFile":"Adjective_Adverb_Mixed_RN_Baza.csv","importedAt":"2026-07-14T20:54:19.900Z"},{"topic":"Adjective Adverb Mixed","difficulty":"Orta","grade":"Qarışıq","type":"Multiple Choice","text":"Choose the correct variant. Taking a taxi is ... than taking a bus.","A":"a more expensive","B":"expensive","C":"as expensive","D":"most expensive","E":"more expensive","answer":"E","sourceFile":"Adjective_Adverb_Mixed_RN_Baza.csv","importedAt":"2026-07-14T20:54:19.900Z"},{"topic":"Adjective Adverb Mixed","difficulty":"Orta","grade":"Qarışıq","type":"Multiple Choice","text":"Choose the correct variant. Everyone respects our coach. He is a very ... man.","A":"gentlest","B":"more gentle","C":"gentle","D":"the most gentle","E":"a more gentle","answer":"C","sourceFile":"Adjective_Adverb_Mixed_RN_Baza.csv","importedAt":"2026-07-14T20:54:19.900Z"},{"topic":"Modal Verbs","difficulty":"Orta","grade":"Qarışıq","type":"Multiple Choice","text":"I need to know the truth. You ... lie to me. 1. haven't to 2. aren't able 3. mustn't 4. shouldn't","A":"1, 2","B":"1, 4","C":"2, 3","D":"3, 4","E":"2, 4","answer":"D","sourceFile":"Modal_Verbs_RN_Baza.csv","importedAt":"2026-07-14T20:54:24.213Z"},{"topic":"Adjective Adverb Mixed","difficulty":"Orta","grade":"Qarışıq","type":"Multiple Choice","text":"Choose the correct variant. The peace agreement signed last month was very ... .","A":"much valuable","B":"so valuable","C":"most valuable","D":"valuable","E":"as valuable","answer":"D","sourceFile":"Adjective_Adverb_Mixed_RN_Baza.csv","importedAt":"2026-07-14T20:54:19.900Z"},{"topic":"Modal Verbs","difficulty":"Orta","grade":"Qarışıq","type":"Multiple Choice","text":"Drivers ... stop when the traffic light is red.","A":"ought","B":"doesn't have to","C":"must","D":"oughtn't","E":"haven't to","answer":"C","sourceFile":"Modal_Verbs_RN_Baza.csv","importedAt":"2026-07-14T20:54:24.213Z"},{"topic":"Adjective Adverb Mixed","difficulty":"Orta","grade":"Qarışıq","type":"Multiple Choice","text":"Choose the correct variant. The homework was not ... I expected.","A":"more difficult","B":"so difficult as","C":"most difficult","D":"as difficult","E":"much difficult","answer":"B","sourceFile":"Adjective_Adverb_Mixed_RN_Baza.csv","importedAt":"2026-07-14T20:54:19.900Z"},{"topic":"Adjective Adverb Mixed","difficulty":"Orta","grade":"Qarışıq","type":"Multiple Choice","text":"Choose the correct variant. This dish tastes ... . I have never eaten such a delicious meal.","A":"awfully","B":"bitterly","C":"wonderful","D":"sweetly","E":"pleasantly","answer":"C","sourceFile":"Adjective_Adverb_Mixed_RN_Baza.csv","importedAt":"2026-07-14T20:54:19.900Z"},{"topic":"Adjective Adverb Mixed","difficulty":"Orta","grade":"Qarışıq","type":"Multiple Choice","text":"Choose the correct variant. Araz is 19, but Tural is 21. So Tural is two years ... than Araz.","A":"oldest","B":"elder","C":"more older","D":"older","E":"the oldest","answer":"D","sourceFile":"Adjective_Adverb_Mixed_RN_Baza.csv","importedAt":"2026-07-14T20:54:19.900Z"},{"topic":"Conjunctions Conjunctive Words","difficulty":"Orta","grade":"Qarışıq","type":"Multiple Choice","text":"Choose the correct variant. Where is the specialist ... we met yesterday?","A":"what","B":"whom","C":"who","D":"where","E":"which","answer":"B","sourceFile":"Conjunctions_Conjunctive_Words_RN_Baza.csv","importedAt":"2026-07-14T20:54:23.205Z"},{"topic":"Conjunctions Conjunctive Words","difficulty":"Orta","grade":"Qarışıq","type":"Multiple Choice","text":"Choose the correct variant. It was Sam ... told you ... you could find your colleague.","A":"where, what","B":"who, where","C":"whom, why","D":"what, when","E":"whose, how","answer":"B","sourceFile":"Conjunctions_Conjunctive_Words_RN_Baza.csv","importedAt":"2026-07-14T20:54:23.205Z"},{"topic":"Adjective Adverb Mixed","difficulty":"Orta","grade":"Qarışıq","type":"Multiple Choice","text":"Choose the correct option. The student looked ... and answered very ... during the interview.","A":"nervously, nervously","B":"nervous, nervous","C":"nervous, nervously","D":"nervously, more nervously","E":"more nervously, nervous","answer":"C","sourceFile":"Adjective_Adverb_Mixed_RN_Baza.csv","importedAt":"2026-07-14T20:54:19.901Z"}],"rejectedQuestions":839,"shortCode":"CIRSCP"};const BRAND={"teacher":"Rashad Nasibov","brand":"RN","supabase":{"url":"https://sxligwfsxkyeimqcsjhi.supabase.co","key":"sb_publishable_7zKCnerYaUY3yLsnc_iSWg_nU0-eoTU","ownerId":"rn-rashad"}};(function studentApp(E,B){
+const root=document.getElementById('studentApp')||document.body;
+const letters=['A','B','C','D','E'];
+const oneAttempt=E.oneAttempt!==false;
+let seconds=(E.duration||45)*60;
+let startedAt=0;
+let int=null;
+let finished=false;
+let studentIdentity={name:'',key:'',grade:''};
+
+root.innerHTML=`<div class="wm">${B.brand} • ${B.teacher}</div><div class="student-shell"><aside class="student-side"><div class="student-logo">${B.brand}</div><h2>${B.teacher}</h2><p>${E.name}</p><div class="timer" id="timer">--:--</div><div class="progress"><i id="bar"></i></div><div class="palette" id="palette"></div></aside><main class="student-main"><section class="intro" id="startPanel"><h1>${E.name}</h1><p>${E.instruction||'Hər sual üçün bir cavab seçin.'}</p><div class="meta"><span class="pill">${E.questions.length} sual</span><span class="pill">${E.duration||45} dəqiqə</span>${oneAttempt?'<span class="pill">1 cəhd</span>':''}</div><div class="identity-grid one"><input id="studentCode" placeholder="Daimi şagird kodunu daxil edin"></div><p class="identity-note">Müəllimin sizə verdiyi daimi kod bütün sınaqlarda istifadə olunur.</p><button class="finish" id="startBtn">Kodu yoxla və başla</button><div id="startStatus"></div></section><div id="examArea" hidden><div class="verified-student" id="verifiedStudent"></div><div id="questions"></div><button class="finish" id="finishBtn">Sınağı bitir</button><div id="result"></div></div></main></div>`;
+
+function normalizeKey(v){return String(v||'').trim().toUpperCase().replace(/\s+/g,'')}
+async function rpc(name,body){
+  const cfg=B.supabase||{};
+  if(!cfg.url||!cfg.key||!cfg.ownerId)throw new Error('Supabase bağlantısı yoxdur');
+  const res=await fetch(cfg.url.replace(/\/+$/,'')+'/rest/v1/rpc/'+name,{
+    method:'POST',
+    headers:{apikey:cfg.key,Authorization:'Bearer '+cfg.key,'Content-Type':'application/json'},
+    body:JSON.stringify(body)
+  });
+  const text=await res.text();
+  let data;try{data=text?JSON.parse(text):null}catch{data=text}
+  if(!res.ok)throw new Error(data?.message||data||('HTTP '+res.status));
+  return data
+}
+async function validateCode(key){
+  const rows=await rpc('validate_student_code',{
+    p_owner_id:B.supabase.ownerId,
+    p_student_code:key
+  });
+  return Array.isArray(rows)&&rows.length?rows[0]:null
+}
+async function alreadyAttempted(key){
+  if(!oneAttempt)return false;
+  const localKey=`rn_attempt_${B.supabase?.ownerId||'local'}_${E.shortCode||E.id||'exam'}_${key}`;
+  if(localStorage.getItem(localKey))return true;
+  const exists=await rpc('check_exam_attempt',{
+    p_owner_id:B.supabase.ownerId,
+    p_exam_code:E.shortCode||E.id||'exam',
+    p_student_key:key
+  });
+  return exists===true
+}
+function markLocalAttempt(key){
+  const localKey=`rn_attempt_${B.supabase?.ownerId||'local'}_${E.shortCode||E.id||'exam'}_${key}`;
+  localStorage.setItem(localKey,'1')
+}
+async function startExam(){
+  const key=normalizeKey(studentCode.value);
+  if(key.length<4){studentCode.focus();startStatus.innerHTML='<p class="save-warn">Daimi kodu tam yazın.</p>';return}
+  startBtn.disabled=true;startBtn.textContent='Yoxlanılır...';
+  try{
+    const student=await validateCode(key);
+    if(!student){
+      startStatus.innerHTML='<div class="attempt-block"><b>Kod yanlışdır və ya aktiv deyil.</b><p>Yalnız müəllimin verdiyi daimi kodla daxil olmaq mümkündür.</p></div>';
+      startBtn.disabled=false;startBtn.textContent='Kodu yoxla və başla';return
+    }
+    if(await alreadyAttempted(key)){
+      startStatus.innerHTML='<div class="attempt-block"><b>Bu şagird sınağı artıq işləyib.</b><p>Təkrar cəhdə icazə verilmir.</p></div>';
+      startBtn.disabled=false;startBtn.textContent='Kodu yoxla və başla';return
+    }
+    studentIdentity={name:student.student_name,key,grade:student.grade||''};
+    verifiedStudent.textContent=`${studentIdentity.name}${studentIdentity.grade?' • '+studentIdentity.grade:''}`;
+    startPanel.hidden=true;examArea.hidden=false;
+    renderQuestions();
+    startedAt=Date.now();
+    int=setInterval(tick,1000);tick();finishBtn.onclick=finish
+  }catch(err){
+    startStatus.innerHTML='<p class="save-warn">Kod yoxlanmadı: '+esc(err.message)+'</p>';
+    startBtn.disabled=false;startBtn.textContent='Kodu yoxla və başla'
+  }
+}
+startBtn.onclick=startExam;
+
+function renderQuestions(){
+  questions.innerHTML=E.questions.map((q,i)=>{
+    const p=questionParts(q);
+    return `<section class="question-card" id="q${i}"><small>${q.topic||''}</small>${p.instruction?`<div class="q-instruction">${i+1}. ${esc(p.instruction)}</div>`:`<div class="q-instruction">${i+1}.</div>`}${p.stem?`<div class="q-stem">${esc(p.stem)}</div>`:''}${letters.filter(k=>q[k]&&q[k]!=='—').map(k=>`<label class="option"><input type="radio" name="q${i}" value="${k}"><span class="option-letter">${k}</span><span class="option-text">${esc(q[k])}</span></label>`).join('')}</section>`
+  }).join('');
+  palette.innerHTML=E.questions.map((_,i)=>`<span id="p${i}">${i+1}</span>`).join('');
+  document.querySelectorAll('input[type=radio]').forEach(x=>x.addEventListener('change',()=>{
+    const i=x.name.slice(1);document.getElementById('p'+i)?.classList.add('done');update()
+  }))
+}
+function update(){
+  const done=document.querySelectorAll('input[type=radio]:checked').length;
+  bar.style.width=(done/E.questions.length*100)+'%'
+}
+function tick(){
+  const m=Math.floor(seconds/60),ss=seconds%60;
+  timer.textContent=String(m).padStart(2,'0')+':'+String(ss).padStart(2,'0');
+  if(seconds--<=0)finish()
+}
+async function submitResult(payload){
+  const cfg=B.supabase||{};
+  try{
+    const res=await fetch(cfg.url.replace(/\/+$/,'')+'/rest/v1/exam_results',{
+      method:'POST',
+      headers:{apikey:cfg.key,Authorization:'Bearer '+cfg.key,'Content-Type':'application/json',Prefer:'return=minimal'},
+      body:JSON.stringify(payload)
+    });
+    if(!res.ok){
+      let msg=await res.text();
+      try{const j=JSON.parse(msg);msg=j.message||j.details||msg}catch{}
+      if(res.status===409||/duplicate key|unique constraint|23505/i.test(msg))msg='Bu şagird bu sınağı artıq işləyib.';
+      throw new Error(msg)
+    }
+    return {saved:true,message:'Nəticə müəllim panelinə göndərildi.'}
+  }catch(err){return {saved:false,message:'Nəticə göndərilmədi: '+err.message}}
+}
+function performanceText(percent){
+  if(percent>=90)return 'Əla nəticə';
+  if(percent>=75)return 'Yaxşı nəticə';
+  if(percent>=50)return 'Kafi nəticə';
+  return 'Təkmilləşdirmə lazımdır'
+}
+function compactAnswers(details,field){
+  return details.map(d=>`<span class="${d.status}"><b>${d.number}</b>${esc(d[field]||'—')}</span>`).join('')
+}
+function reportCardHTML(data){
+  return `<article class="report-card" id="reportCard"><div class="report-watermark">${esc(B.brand)} • ${esc(B.teacher)}</div><header><div class="report-logo">${esc(B.brand)}</div><div><small>RN TEST SİSTEMİ</small><h2>NƏTİCƏ KARNESİ</h2></div></header><div class="report-name">${esc(data.name)}</div><div class="report-exam">${esc(E.name)}${data.grade?' • '+esc(data.grade):''}</div><div class="report-score"><b>${data.percent}%</b><span>${performanceText(data.percent)}</span></div><div class="report-grid"><div><span>Düzgün</span><b>${data.score}</b></div><div><span>Səhv</span><b>${data.wrong}</b></div><div><span>Boş</span><b>${data.blank}</b></div><div><span>Vaxt</span><b>${Math.floor(data.elapsed/60)}:${String(data.elapsed%60).padStart(2,'0')}</b></div></div><div class="answer-sheet"><h3>Şagirdin cavabları</h3><div class="answer-line">${compactAnswers(data.details,'selected')}</div><h3>Cavab açarı</h3><div class="answer-line key-line">${compactAnswers(data.details,'correct')}</div></div><footer><span>Müəllim: <b>${esc(B.teacher)}</b></span><span>${new Date().toLocaleDateString('az-AZ')}</span></footer></article>`
+}
+function printReportCard(){
+  const card=document.getElementById('reportCard');if(!card)return;
+  const style=document.querySelector('style')?.textContent||'';
+  const w=window.open('','_blank');
+  w.document.write(`<!doctype html><html><head><meta charset="utf-8"><title>Nəticə karnesi</title><style>${style}@page{size:A4;margin:12mm}body{background:#fff}.report-card{box-shadow:none;margin:0}.report-actions,.review-title,.review-card,.save-ok,.save-warn{display:none!important}</style></head><body>${card.outerHTML}<script>onload=()=>setTimeout(()=>print(),300)<\/script></body></html>`);
+  w.document.close()
+}
+window.printRNReportCard=printReportCard;
+
+async function finish(){
+  if(finished)return;
+  finished=true;if(int)clearInterval(int);finishBtn.disabled=true;
+  let score=0,graded=0,blank=0,wrong=0;
+  const details=E.questions.map((q,i)=>{
+    const selected=document.querySelector(`input[name=q${i}]:checked`)?.value||'';
+    const correct=q.answer||'';
+    let status='ungraded';
+    if(correct){
+      graded++;
+      if(!selected){blank++;status='blank'}
+      else if(selected===correct){score++;status='correct'}
+      else{wrong++;status='wrong'}
+    }
+    const p=questionParts(q);
+    return {number:i+1,instruction:p.instruction,question:p.stem,selected,correct,status,
+      options:Object.fromEntries(letters.filter(k=>q[k]&&q[k]!=='—').map(k=>[k,q[k]]))}
+  });
+  const percent=graded?Math.round(score/graded*100):0;
+  const elapsed=Math.max(0,Math.round((Date.now()-startedAt)/1000));
+  const payload={owner_id:B.supabase.ownerId,exam_code:E.shortCode||E.id||'exam',exam_name:E.name,
+    student_name:studentIdentity.name,student_key:studentIdentity.key,student_group:studentIdentity.grade||'',score,total:graded,percent,
+    correct_count:score,wrong_count:wrong,blank_count:blank,duration_seconds:elapsed,details};
+  const saveState=await submitResult(payload);
+  if(saveState.saved||oneAttempt)markLocalAttempt(studentIdentity.key);
+  const report=reportCardHTML({name:studentIdentity.name,grade:studentIdentity.grade,percent,score,wrong,blank,elapsed,details});
+  const review=details.map((d,i)=>{
+    const q=E.questions[i],p=questionParts(q);
+    const label=d.status==='correct'?'Düzgün':d.status==='wrong'?'Səhv':d.status==='blank'?'Boş':'Yoxlanılmır';
+    return `<section class="review-card ${d.status}"><div class="review-head"><b>${d.number}. ${esc(p.instruction||'')}</b><span>${label}</span></div>${p.stem?`<div class="review-stem">${esc(p.stem)}</div>`:''}<div class="review-answer"><span>Sizin cavabınız: <b>${d.selected||'Boş'}</b></span><span>Düzgün cavab: <b>${d.correct||'—'}</b></span></div>${letters.filter(k=>q[k]&&q[k]!=='—').map(k=>`<div class="review-option ${k===d.correct?'is-correct':''} ${k===d.selected&&k!==d.correct?'is-wrong':''}"><b>${k}</b><span>${esc(q[k])}</span></div>`).join('')}</section>`
+  }).join('');
+  result.innerHTML=`${report}<div class="report-actions"><button class="finish" onclick="printRNReportCard()">Karne-ni çap et / PDF saxla</button></div><p class="${saveState.saved?'save-ok':'save-warn'}">${esc(saveState.message)}</p><div class="review-title"><h2>Sualların təhlili</h2></div>${review}`;
+  document.querySelectorAll('input[type=radio]').forEach(x=>x.disabled=true);
+  result.scrollIntoView({behavior:'smooth'});
+}
+})(EXAM,BRAND);</script></body></html>
